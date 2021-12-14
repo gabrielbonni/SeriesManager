@@ -2,7 +2,10 @@ package br.edu.ifsp.scl.ads.pdm.seriesmanager
 
 import android.content.Intent
 import android.os.Bundle
+<<<<<<< HEAD
 import android.view.Menu
+=======
+>>>>>>> 4505eb7479f9a49480b258f4df4e9d01ca3e9808
 import android.view.MenuItem
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
@@ -113,6 +116,7 @@ class SerieListagemActivity : AppCompatActivity(), OnSerieClickListener {
         }
     }
 
+<<<<<<< HEAD
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_main, menu)
         return true
@@ -132,12 +136,15 @@ class SerieListagemActivity : AppCompatActivity(), OnSerieClickListener {
             false
         }
     }
+=======
+>>>>>>> 4505eb7479f9a49480b258f4df4e9d01ca3e9808
     override fun onSerieClick(posicao: Int) {
         val serie = serieList[posicao]
         val consultarTemporadasIntent = Intent(this, TemporadaListagemActivity::class.java)
         consultarTemporadasIntent.putExtra(EXTRA_SERIE, serie)
         startActivity(consultarTemporadasIntent)
     }
+<<<<<<< HEAD
 
     override fun onStart() {
         super.onStart()
@@ -145,4 +152,6 @@ class SerieListagemActivity : AppCompatActivity(), OnSerieClickListener {
             finish()
         }
     }
+=======
+>>>>>>> 4505eb7479f9a49480b258f4df4e9d01ca3e9808
 }
