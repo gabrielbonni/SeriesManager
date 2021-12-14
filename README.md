@@ -1,11 +1,6 @@
 # SeriesManager
-<<<<<<< HEAD
 
-:red_circle: Projeto da disciplina PDM 
-
-=======
 Projeto da disciplina PDM 
->>>>>>> 4505eb7479f9a49480b258f4df4e9d01ca3e9808
 
 O projeto consiste no desenvolvimento de um aplicativo simples de lista com uso de
 persistência. O aplicativo permite criar, apagar e gerenciar séries, temporadas e seus
@@ -28,7 +23,7 @@ Deve-se manter observância aos conceitos de desenvolvimento de um banco de dado
 persistência deve ser implementada usando SQLite e o uso de uma arquitetura de software
 (mesmo que MVC) é indicado. 
 
-<<<<<<< HEAD
+
 Parte 2:
 A segunda parte do aplicativo avaliativo se trata de uma continuação, mas com especificação e
 requisitos diferentes, do projeto SeriesManager. Para este momento avaliativo será necessário
@@ -42,7 +37,3 @@ possível também configurar as regras de acesso do Banco de Dados de Tempo Real
 somente usuários autenticados possam fazer uso do banco.
 
 Link video parte 2: https://www.youtube.com/watch?v=ILS2l02BHf4
-
-=======
-link vídeo parte 2: https://www.youtube.com/watch?v=ILS2l02BHf4
->>>>>>> 4505eb7479f9a49480b258f4df4e9d01ca3e9808
